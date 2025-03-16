@@ -18,9 +18,9 @@
     color: white;
   }
 
-  #unity-container {
+  /* #unity-container {
     padding-top: 40vh;
-  }
+  } */
 </style>
 
 <body>
@@ -145,6 +145,7 @@
       // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
       canvas.style.width = "960px";
       canvas.style.height = "600px";
+      document.querySelector("#unity-container").setAttribute("style", "padding-top: 40vh;");
     }
 
     document.querySelector("#unity-loading-bar").style.display = "block";
