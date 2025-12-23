@@ -1,0 +1,424 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4072029455",
+    "Type": "User",
+    "GUID": "{2A1E33CD-FA66-4041-8E2D-7120430E5CF1}",
+    "Language": "SFX",
+    "Hash": "{27902BD5-4248-D8F1-DCCE-913FDD4774C3}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\New_SoundBank",
+    "ShortName": "New_SoundBank",
+    "Path": "New_SoundBank.bnk",
+    "Media": [
+     {
+      "Id": "164950995",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot d.wav",
+      "CachePath": "57/{57463DD2-79FC-1875-19F9-8E52CFD105E2}.wem"
+     },
+     {
+      "Id": "174270893",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot c.wav",
+      "CachePath": "6A/{6A1CF2E0-48C4-49F2-73E9-51A26CE53F92}.wem"
+     },
+     {
+      "Id": "244032044",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "hit.wav",
+      "CachePath": "5B/{5BB1FAC7-720E-399B-B121-A70D3EA41A19}.wem"
+     },
+     {
+      "Id": "488520126",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot f.wav",
+      "CachePath": "A8/{A8972F22-0E5C-D8A0-3463-CEC641F641EF}.wem"
+     },
+     {
+      "Id": "571326152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JDSherbert - Ultimate UI SFX Pack - Select - 1.wav",
+      "CachePath": "5A/{5A82F668-CDC2-D374-00FC-89ACB52E432C}.wem"
+     },
+     {
+      "Id": "630583557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot a.wav",
+      "CachePath": "9B/{9B2B3FF0-0A18-1D7E-2445-0B2EA7025565}.wem"
+     },
+     {
+      "Id": "738726770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot g.wav",
+      "CachePath": "4F/{4F4C746D-AFE9-EC09-1616-0350142B7A5C}.wem"
+     },
+     {
+      "Id": "770286755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot e.wav",
+      "CachePath": "8C/{8C924EC8-4C57-729C-8854-6E86C133BD3E}.wem"
+     },
+     {
+      "Id": "792738488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "active scoring zone.wav",
+      "CachePath": "DD/{DD00F023-CEE2-32A1-E2DD-A473EFC474F5}.wem"
+     },
+     {
+      "Id": "994775651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "trick shot b.wav",
+      "CachePath": "B5/{B5875DA6-4ACB-A319-0AC3-23C4934D83E3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2045588315",
+      "Name": "Play_active_scoring_zone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_active_scoring_zone",
+      "GUID": "{78F43787-F5D0-4E14-A45C-9F4E8A2BBC4E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "792738488"
+       }
+      ]
+     },
+     {
+      "Id": "898339334",
+      "Name": "Play_HitSource",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_HitSource",
+      "GUID": "{4A6BDE0E-7A4B-48AC-92E2-C69DAE9A268B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665321",
+         "GUID": "{B80AAA09-E0E3-428E-B8D7-9903BAA75459}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "630583557"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665326",
+         "GUID": "{ACF5A420-A4FF-482F-B711-B0B0DC869C34}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "488520126"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665323",
+         "GUID": "{154D5D4A-2A84-4371-BABB-B082A88E1C25}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "174270893"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665322",
+         "GUID": "{36B8165C-568F-45C5-9D90-87309B18E8EC}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "994775651"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665325",
+         "GUID": "{13DCD379-ACAD-4D47-8AF7-E264437500E9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "770286755"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "2628937827",
+         "GUID": "{603D098E-859D-4EF1-BB3B-887956B2BF36}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "244032044"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665327",
+         "GUID": "{FDB7919E-DEB5-48ED-9B66-ABDD333A6193}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "738726770"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "4110665324",
+         "GUID": "{72DB58B3-3798-45A5-961D-DDB7CF9022CF}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "164950995"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3545613622",
+         "Id": "3902528438",
+         "GUID": "{8B8BCDFA-D06F-4726-BB79-65135383F3B3}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "792738488"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "1960095215",
+      "Name": "Play_JDSherbert___Ultimate_UI_SFX_Pack___Select___1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_JDSherbert___Ultimate_UI_SFX_Pack___Select___1",
+      "GUID": "{E847602A-A62C-4EF9-BFD5-6CF4DDC290E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0052083",
+      "DurationMax": "2.0052083",
+      "MediaRefs": [
+       {
+        "Id": "571326152"
+       }
+      ]
+     },
+     {
+      "Id": "988953970",
+      "Name": "Play_trick_shot_a",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_a",
+      "GUID": "{8B40B39C-2A5B-475F-9356-1B7DBC6635EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "630583557"
+       }
+      ]
+     },
+     {
+      "Id": "988953969",
+      "Name": "Play_trick_shot_b",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_b",
+      "GUID": "{3F7099DB-890F-415B-AA1F-79DBB4D8D1A9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "994775651"
+       }
+      ]
+     },
+     {
+      "Id": "988953968",
+      "Name": "Play_trick_shot_c",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_c",
+      "GUID": "{8911C0AD-3A09-4EDB-88CB-291B16607384}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "174270893"
+       }
+      ]
+     },
+     {
+      "Id": "988953975",
+      "Name": "Play_trick_shot_d",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_d",
+      "GUID": "{EAEE4F6B-3D44-475E-8694-FEA738E27454}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "164950995"
+       }
+      ]
+     },
+     {
+      "Id": "988953974",
+      "Name": "Play_trick_shot_e",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_e",
+      "GUID": "{8554783A-0112-44A3-B432-DE7189DC1B73}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "770286755"
+       }
+      ]
+     },
+     {
+      "Id": "988953973",
+      "Name": "Play_trick_shot_f",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_f",
+      "GUID": "{490AF405-843C-46D0-8DEC-0BE7753F4536}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "488520126"
+       }
+      ]
+     },
+     {
+      "Id": "988953972",
+      "Name": "Play_trick_shot_g",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_trick_shot_g",
+      "GUID": "{03209E35-5365-4832-9E28-B091DE4FDD8D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.0636735",
+      "DurationMax": "2.0636735",
+      "MediaRefs": [
+       {
+        "Id": "738726770"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3545613622",
+      "Name": "HitSources",
+      "ObjectPath": "\\Switches\\Default Work Unit\\HitSources",
+      "GUID": "{7D722DD3-96D8-499E-B9B5-260CB7207326}",
+      "Switches": [
+       {
+        "Id": "2628937827",
+        "Name": "Regular",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Regular",
+        "GUID": "{603D098E-859D-4EF1-BB3B-887956B2BF36}"
+       },
+       {
+        "Id": "3902528438",
+        "Name": "Target",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Target",
+        "GUID": "{8B8BCDFA-D06F-4726-BB79-65135383F3B3}"
+       },
+       {
+        "Id": "4110665321",
+        "Name": "Combo_A",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_A",
+        "GUID": "{B80AAA09-E0E3-428E-B8D7-9903BAA75459}"
+       },
+       {
+        "Id": "4110665322",
+        "Name": "Combo_B",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_B",
+        "GUID": "{36B8165C-568F-45C5-9D90-87309B18E8EC}"
+       },
+       {
+        "Id": "4110665323",
+        "Name": "Combo_C",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_C",
+        "GUID": "{154D5D4A-2A84-4371-BABB-B082A88E1C25}"
+       },
+       {
+        "Id": "4110665324",
+        "Name": "Combo_D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_D",
+        "GUID": "{72DB58B3-3798-45A5-961D-DDB7CF9022CF}"
+       },
+       {
+        "Id": "4110665325",
+        "Name": "Combo_E",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_E",
+        "GUID": "{13DCD379-ACAD-4D47-8AF7-E264437500E9}"
+       },
+       {
+        "Id": "4110665326",
+        "Name": "Combo_F",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_F",
+        "GUID": "{ACF5A420-A4FF-482F-B711-B0B0DC869C34}"
+       },
+       {
+        "Id": "4110665327",
+        "Name": "Combo_G",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_G",
+        "GUID": "{FDB7919E-DEB5-48ED-9B66-ABDD333A6193}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F1767439-FC73-1262-23A4-30729D965B9D}"
+ }
+}

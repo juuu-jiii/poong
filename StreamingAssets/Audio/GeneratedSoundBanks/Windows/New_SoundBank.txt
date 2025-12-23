@@ -1,0 +1,38 @@
+Event	ID	Name			Wwise Object Path	Notes
+	898339334	Play_HitSource			\Default Work Unit\Play_HitSource	
+	988953968	Play_trick_shot_c			\Default Work Unit\Play_trick_shot_c	
+	988953969	Play_trick_shot_b			\Default Work Unit\Play_trick_shot_b	
+	988953970	Play_trick_shot_a			\Default Work Unit\Play_trick_shot_a	
+	988953972	Play_trick_shot_g			\Default Work Unit\Play_trick_shot_g	
+	988953973	Play_trick_shot_f			\Default Work Unit\Play_trick_shot_f	
+	988953974	Play_trick_shot_e			\Default Work Unit\Play_trick_shot_e	
+	988953975	Play_trick_shot_d			\Default Work Unit\Play_trick_shot_d	
+	1960095215	Play_JDSherbert___Ultimate_UI_SFX_Pack___Select___1			\Default Work Unit\Play_JDSherbert___Ultimate_UI_SFX_Pack___Select___1	
+	2045588315	Play_active_scoring_zone			\Default Work Unit\Play_active_scoring_zone	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3545613622	HitSources			\Default Work Unit\HitSources	
+
+Switch	ID	Name	Switch Group			Notes
+	2628937827	Regular	HitSources			
+	3902528438	Target	HitSources			
+	4110665321	Combo_A	HitSources			
+	4110665322	Combo_B	HitSources			
+	4110665323	Combo_C	HitSources			
+	4110665324	Combo_D	HitSources			
+	4110665325	Combo_E	HitSources			
+	4110665326	Combo_F	HitSources			
+	4110665327	Combo_G	HitSources			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	164950995	Combo D	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\57\{57463DD2-79FC-1875-19F9-8E52CFD105E2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo D		364128
+	174270893	Combo C	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\6A\{6A1CF2E0-48C4-49F2-73E9-51A26CE53F92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo C		364128
+	244032044	hit	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\5B\{5BB1FAC7-720E-399B-B121-A70D3EA41A19}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\hit		364128
+	488520126	Combo F	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\A8\{A8972F22-0E5C-D8A0-3463-CEC641F641EF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo F		364128
+	571326152	JDSherbert - Ultimate UI SFX Pack - Select - 1	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\5A\{5A82F668-CDC2-D374-00FC-89ACB52E432C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\JDSherbert - Ultimate UI SFX Pack - Select - 1		385224
+	630583557	Combo A	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\9B\{9B2B3FF0-0A18-1D7E-2445-0B2EA7025565}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo A		364128
+	738726770	Combo G	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\4F\{4F4C746D-AFE9-EC09-1616-0350142B7A5C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo G		364128
+	770286755	Combo E	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\8C\{8C924EC8-4C57-729C-8854-6E86C133BD3E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo E		364128
+	792738488	active scoring zone	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\DD\{DD00F023-CEE2-32A1-E2DD-A473EFC474F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\active scoring zone		364128
+	994775651	Combo B	C:\Users\Kidd\Desktop\dev\projs\Morsels\Morsels_WwiseProject\.cache\B5\{B5875DA6-4ACB-A319-0AC3-23C4934D83E3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Combos\Combo B		364128
+

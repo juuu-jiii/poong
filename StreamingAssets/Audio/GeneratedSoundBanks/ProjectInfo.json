@@ -1,0 +1,43 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Morsels_WwiseProject",
+   "GUID": "{C948E363-07D6-460D-96DF-84DD4F7ACA96}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "../../../../Morsels_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{6F066829-C4FD-4416-BE7C-648E9FEF2A29}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Web",
+    "GUID": "{C5EEFDF2-2EA9-4357-8209-838BFD400C31}",
+    "BasePlatform": "Web",
+    "BasePlatformGUID": "{639AD233-23F2-4C0F-9127-79F44C15E1DA}",
+    "Path": "Web"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{2EEB9A41-888E-443D-8348-3629ED8FAC74}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{90310ECC-F9F3-4C92-B69C-1A6B650AEBDD}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{7D1A5A9F-4A2F-126D-3530-BC8315FD83A7}"
+ }
+}

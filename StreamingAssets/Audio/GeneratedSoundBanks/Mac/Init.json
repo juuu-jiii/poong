@@ -1,0 +1,113 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{89C218AE-9E0B-8562-B379-0ABAC724E516}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{C1AC597C-8ED8-43A8-AEB6-088869E58A1B}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{EA101EDB-2AD1-4AC0-8865-1EE013FABA92}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3545613622",
+      "Name": "HitSources",
+      "ObjectPath": "\\Switches\\Default Work Unit\\HitSources",
+      "GUID": "{7D722DD3-96D8-499E-B9B5-260CB7207326}",
+      "Switches": [
+       {
+        "Id": "2628937827",
+        "Name": "Regular",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Regular",
+        "GUID": "{603D098E-859D-4EF1-BB3B-887956B2BF36}"
+       },
+       {
+        "Id": "3902528438",
+        "Name": "Target",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Target",
+        "GUID": "{8B8BCDFA-D06F-4726-BB79-65135383F3B3}"
+       },
+       {
+        "Id": "4110665321",
+        "Name": "Combo_A",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_A",
+        "GUID": "{B80AAA09-E0E3-428E-B8D7-9903BAA75459}"
+       },
+       {
+        "Id": "4110665322",
+        "Name": "Combo_B",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_B",
+        "GUID": "{36B8165C-568F-45C5-9D90-87309B18E8EC}"
+       },
+       {
+        "Id": "4110665323",
+        "Name": "Combo_C",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_C",
+        "GUID": "{154D5D4A-2A84-4371-BABB-B082A88E1C25}"
+       },
+       {
+        "Id": "4110665324",
+        "Name": "Combo_D",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_D",
+        "GUID": "{72DB58B3-3798-45A5-961D-DDB7CF9022CF}"
+       },
+       {
+        "Id": "4110665325",
+        "Name": "Combo_E",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_E",
+        "GUID": "{13DCD379-ACAD-4D47-8AF7-E264437500E9}"
+       },
+       {
+        "Id": "4110665326",
+        "Name": "Combo_F",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_F",
+        "GUID": "{ACF5A420-A4FF-482F-B711-B0B0DC869C34}"
+       },
+       {
+        "Id": "4110665327",
+        "Name": "Combo_G",
+        "ObjectPath": "\\Switches\\Default Work Unit\\HitSources\\Combo_G",
+        "GUID": "{FDB7919E-DEB5-48ED-9B66-ABDD333A6193}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{972D725B-8160-4466-FEC5-0A405491EEBE}"
+ }
+}
